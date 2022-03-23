@@ -1,0 +1,3 @@
+C:\Users\User\source\repos\TiLFSR\TiLFSR\Debug\TiLFSR.vcxproj.AssemblyReference.cache
+C:\Users\User\source\repos\TiLFSR\TiLFSR\Debug\TiLFSR.LeftRegister.resources
+C:\Users\User\source\repos\TiLFSR\TiLFSR\Debug\TiLFSR.vcxproj.GenerateResource.cache

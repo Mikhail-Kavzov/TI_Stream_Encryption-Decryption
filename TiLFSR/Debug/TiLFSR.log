@@ -1,0 +1,6 @@
+﻿  LeftRegister.cpp
+C:\Users\User\source\repos\TiLFSR\TiLFSR\Source.h(44,32): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\User\source\repos\TiLFSR\TiLFSR\Source.h(140,20): warning C4244: '=': conversion from 'std::streamsize' to 'int', possible loss of data
+C:\Users\User\source\repos\TiLFSR\TiLFSR\Source.h(209,20): warning C4244: '=': conversion from 'std::streamsize' to 'int', possible loss of data
+  LeftRegister.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  TiLFSR.vcxproj -> C:\Users\User\source\repos\TiLFSR\Debug\TiLFSR.exe
