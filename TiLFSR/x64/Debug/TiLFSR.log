@@ -1,0 +1,11 @@
+﻿  LeftRegister.cpp
+C:\Users\User\source\repos\TI_Stream_Encryption-Decryption\TiLFSR\Impl.cpp(27,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\TI_Stream_Encryption-Decryption\TiLFSR\Impl.cpp(32,33): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\User\source\repos\TI_Stream_Encryption-Decryption\TiLFSR\Impl.cpp(95,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\TI_Stream_Encryption-Decryption\TiLFSR\Impl.cpp(103,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\TI_Stream_Encryption-Decryption\TiLFSR\Impl.cpp(109,45): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\TI_Stream_Encryption-Decryption\TiLFSR\Impl.cpp(128,21): warning C4244: '=': conversion from 'std::streamsize' to 'int', possible loss of data
+C:\Users\User\source\repos\TI_Stream_Encryption-Decryption\TiLFSR\Impl.cpp(176,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\TI_Stream_Encryption-Decryption\TiLFSR\Impl.cpp(198,21): warning C4244: '=': conversion from 'std::streamsize' to 'int', possible loss of data
+  LeftRegister.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  TiLFSR.vcxproj -> C:\Users\User\source\repos\TI_Stream_Encryption-Decryption\x64\Debug\TiLFSR.exe

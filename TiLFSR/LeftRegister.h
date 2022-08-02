@@ -1,6 +1,6 @@
 #pragma once
 #include <msclr\marshal_cppstd.h>
-#include "Source.h"
+#include "Impl.cpp"
 namespace TiLFSR {
 
 	using namespace System;
@@ -264,11 +264,7 @@ namespace TiLFSR {
 		this->FileMenuStrip->Enabled = false;
 		else 
 			this->FileMenuStrip->Enabled = true;
-	}
-
-	
-
-
+}
 	
 private: System::Void EncryptSubMenu_Click(System::Object^ sender, System::EventArgs^ e) {
 	System::IO::Stream^ MyStream;
@@ -289,7 +285,7 @@ private: System::Void EncryptSubMenu_Click(System::Object^ sender, System::Event
 			EncryptFileBin->Clear();
 			DecryptFileBin->Clear();
 			try {
-				Encrypt(FilePath, regstr, KeyTextBox, EncryptFileBin, DecryptFileBin);
+				LFSR::Encrypt(FilePath, regstr, KeyTextBox, EncryptFileBin, DecryptFileBin);
 			}
 			catch (System::String^ ex)
 			{
@@ -320,7 +316,7 @@ private: System::Void DecryptSubMenu_Click(System::Object^ sender, System::Event
 			EncryptFileBin->Clear();
 			DecryptFileBin->Clear();
 			try {
-				Decrypt(FilePath, regstr, KeyTextBox, EncryptFileBin, DecryptFileBin);
+				LFSR::Decrypt(FilePath, regstr, KeyTextBox, EncryptFileBin, DecryptFileBin);
 			}
 			catch (System::String^ ex)
 			{
@@ -330,5 +326,6 @@ private: System::Void DecryptSubMenu_Click(System::Object^ sender, System::Event
 		}
 	}
 }
+
 };
 }

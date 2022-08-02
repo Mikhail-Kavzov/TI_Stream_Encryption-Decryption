@@ -1,0 +1,3 @@
+C:\Users\User\source\repos\TI_Stream_Encryption-Decryption\TiLFSR\x64\Debug\TiLFSR.vcxproj.AssemblyReference.cache
+C:\Users\User\source\repos\TI_Stream_Encryption-Decryption\TiLFSR\x64\Debug\TiLFSR.LeftRegister.resources
+C:\Users\User\source\repos\TI_Stream_Encryption-Decryption\TiLFSR\x64\Debug\TiLFSR.vcxproj.GenerateResource.cache

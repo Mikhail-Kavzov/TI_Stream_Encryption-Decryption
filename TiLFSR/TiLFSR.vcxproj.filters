@@ -23,8 +23,11 @@
     <ClInclude Include="LeftRegister.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source.h">
+    <ClInclude Include="Declarations.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl.cpp">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

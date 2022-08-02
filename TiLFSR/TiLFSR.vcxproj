@@ -122,10 +122,11 @@
     <ClCompile Include="LeftRegister.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Declarations.h" />
     <ClInclude Include="LeftRegister.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="Source.h" />
+    <ClInclude Include="Impl.cpp" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="LeftRegister.resx">
